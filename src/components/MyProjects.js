@@ -33,7 +33,7 @@ const projects = [
     image: Figma2,
     tools: ["Figma"],
     description:
-      "GiftAura — A gifting app UI that helps users choose the perfect present through polls & recommendations.",
+      "GiftAura — A gifting website UI that helps users choose the perfect present through polls & recommendations.",
   },
   {
     id: 7,
