@@ -8,7 +8,7 @@ const skillsData = [
   { name: "JavaScript", level: 69, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "React", level: 74, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Figma", level: 89, icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-  { name: "UI/UX Design", level: 89, icon: "https://cdn-icons-png.flaticon.com/512/1829/1829586.png" },
+  { name: "Photoshop", level: 79, icon: "https://static.vecteezy.com/system/resources/thumbnails/067/142/661/small/adobe-photoshop-cc-icon-app-logo-editable-transparent-background-social-media-design-for-digital-download-free-png.png" },
 ];
 
 const Skills = () => {
