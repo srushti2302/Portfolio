@@ -32,7 +32,7 @@ const projects = [
   { id: 1, category: "UI/UX Design", slug: "construction", image: construction, tools: ["Figma"], description: "Construction — Redesigned a professional construction company website focusing on clarity, trust, and usability." },
   { id: 2, category: "UI/UX Design", slug: "furniture-redesign", image: Furniture, tools: ["Figma"], description: "Furniture Store UI — Designed elegant layouts for an eCommerce furniture website." },
   { id: 3, category: "UI/UX Design", slug: "dj-event-redesign", image: boogie, tools: ["Figma"], description: "DJ Boogie — Created a modern and stylish party/DJ website interface." },
-  { id: 4, category: "UI/UX Design", slug: "perfume-ecommerce", image: ScentSphere, tools: ["Figma"], description: "ScentSphere — A perfume shopping app UI focused on luxury and product experience." },
+  { id: 4, category: "UI/UX Design", slug: "perfume-ecommerce", image: ScentSphere, tools: ["Figma"], description: "Working : ScentSphere — A perfume shopping app UI focused on luxury and product experience." },
   { id: 5, category: "UI/UX Design", image: Giftaura, tools: ["Figma"], description: "GiftAura — A gifting website UI that helps users choose the perfect present." },
 
   { id: 6, category: "Web Development", image: portfolio, tools: ["React", "Tailwind CSS"], description: "Portfolio — Designed and developed a personal portfolio website with a clean, responsive UI." },

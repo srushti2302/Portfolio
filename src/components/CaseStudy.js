@@ -28,6 +28,14 @@ export default function CaseStudy() {
         <div>
                 <div className="flex items-center gap-3">
                 <h1 className="text-4xl font-bold">{project.title}</h1>
+
+                  {/* WORKING tag for ScentSphere */}
+                  {project.slug === "perfume-ecommerce" && (
+                    <span className="text-xs font-semibold px-3 py-1 rounded-full bg-blue-200 text-blue-700">
+                      WORKING
+                    </span>
+                  )}
+
                  {project.slug !== "perfume-ecommerce" && (
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-orange-100 text-orange-700">
                     REDESIGN
