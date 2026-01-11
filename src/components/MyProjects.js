@@ -138,15 +138,27 @@ export default function ProjectSection() {
         ))}
       </div>
 
-      {/* See More Button */}
-      {activeTab === "All" && !showAll && (
-        <div className="flex justify-end mt-12">
-          <button
-            onClick={() => setShowAll(true)}
-            className="text-[#006F79] font-semibold text-2xl hover:underline mr-16"
-          >
-            See More →
-          </button>
+      {/* See More / Show Less */}
+      {activeTab === "All" && (
+        <div className="flex justify-end mt-12 mr-16">
+          {!showAll ? (
+            <button
+              onClick={() => setShowAll(true)}
+              className="text-[#006F79] font-semibold text-2xl hover:underline"
+            >
+              See More →
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                setShowAll(false);
+                document.getElementById("Featured Work")?.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="text-[#006F79] font-semibold text-2xl hover:underline"
+            >
+              ← Show Less
+            </button>
+          )}
         </div>
       )}
 
