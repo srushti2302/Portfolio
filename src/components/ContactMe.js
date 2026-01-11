@@ -27,7 +27,7 @@ const Contact = () => {
             href="mailto:srushtipatil@gmail.com"
             className="text-lg font-medium text-[#003638] hover:text-[#009E96] transition"
           >
-            srushtipatil@gmail.com
+            srupatil2302@gmail.com
           </a>
         </motion.div>
 
@@ -37,10 +37,10 @@ const Contact = () => {
         >
           <FaPhoneAlt className="text-3xl text-[#00A5B0] mb-2" />
           <a
-            href="tel:+919876543210"
+            href="tel:+918788314268"
             className="text-lg font-medium text-[#003638] hover:text-[#009E96] transition"
           >
-            +91 98765 43210
+            +91 8788314268
           </a>
         </motion.div>
 
@@ -49,7 +49,7 @@ const Contact = () => {
           className="flex flex-col items-center text-center bg-white/40 backdrop-blur-sm p-6 rounded-2xl shadow-md w-64"
         >
           <FaLocationDot className="text-3xl text-[#00A5B0] mb-2" />
-          <p className="text-lg font-medium text-[#003638]">Pune, Maharashtra</p>
+          <p className="text-lg font-medium text-[#003638]">Mukt Sainik Vasahat, Kolhapur, Maharashtra</p>
         </motion.div>
       </div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
 
       {/* 🔹 Footer Text */}
       <p className="text-center text-[#003638]/70 mt-10">
-        Let’s create something amazing together 💫
+        I’m actively looking for UI/UX design opportunities. I’d be happy to connect anytime. 💫
       </p>
     </section>
   );
